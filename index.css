@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.header {
+  max-width: 100%;
+  max-height: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+li {
+  display: flex;
+  list-style-type: none;
+  margin-top: 1.3%;
+  margin-right: 8%;
+}
+ul {
+  margin-right: -2%;
+}
+.c1 {
+  font-family: "Courier New", Courier, monospace;
+}
+.c2 {
+  color: rgb(73, 73, 167);
+  font-weight: 700;
+}
+.logo {
+  margin-top: 6%;
+  margin-left: 14%;
+  margin-right: 0%;
+}
+.mainheading {
+  position: relative;
+  max-width: 100%;
+  max-height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  margin-bottom: 0%;
+}
+.h3h1 {
+    flex-wrap: wrap ;
+    font-size: 450%;
+  position: absolute;
+  margin-left: 39%;
+  background: linear-gradient(to right, purple,blue, lightblue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.h3h2 {
+    flex-wrap: wrap;
+    font-size: 450%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 29%;
+  margin-top: 14%;
+  background: linear-gradient(to right, purple,blue, lightblue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.p1p1{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 28%;
+    font-size: larger;
+font-weight: 400;
+}
+.p1p2{
+  position: absolute;
+  margin-top: 26%;
+    margin-left: 30%;
+    font-size: larger;
+font-weight: 400;
+}
+.search-container{
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-box{
+    position: absolute;
+    padding: 10px 220px;
+    margin-left: 30%;
+    margin-top: 30%;
+    border-radius: 10px;
+    box-sizing: border-box;
+   border-width: 1px;
+}
+.search-box::placeholder {
+   margin-left: 0%;
+}
+.search-button{
+    position: absolute;
+    padding: 14px 40px;
+    border-radius: 20px;
+    margin-top: 10%;
+    border-color: black;
+    margin-top: 34%;
+    margin-left: 48%;
+    border-color: rgb(122, 110, 204);
+    color: white;
+    background-color: slateblue;
+   cursor: pointer;
+}
+.search-button:hover{
+    background-color: rgb(68, 60, 129);
+}
