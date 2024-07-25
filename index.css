@@ -431,3 +431,127 @@ ul {
   margin-left: -140px;
   margin-right: 20px;
 }
+.section4-cards{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Ncard1,.Ncard2,.Ncard3,.Ncard4,.Ncard5,.Ncard6{
+  margin-left: 10px;
+  position: relative;
+ width: 350px;
+ height: 250px;
+  box-shadow: 10px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  cursor: pointer;
+}
+.section4-img{
+  position:absolute;
+  margin-left: 300px;
+  z-index: 1;
+  margin-top: -100px;
+}
+.Np{
+  font-weight: 600;
+}
+.amount{
+  color:rgb(57, 57, 177);
+  font-weight: 600;
+}
+.price{
+  color:rgb(57, 57, 177);
+  font-weight: 600; 
+}
+.Np2{
+  position: absolute;
+  margin-top:100px ;
+}
+.Np3{
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 100px;
+}
+.section6{
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top:500px ;
+  width: 100%;
+}
+.Card1pic{
+  margin-top: -10px;
+}
+.s6h3{
+  margin-left: 20px;
+  font-size: 40px;
+  margin-top: -10px;
+}
+.s6h32{
+  margin-left: 20px;
+  font-size: 40px;
+  margin-top: -29px;
+  color:rgb(57, 57, 177);
+}
+.btns61{
+  margin-top: -54px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: large;
+  color:rgb(57, 57, 177);
+  border-color: rgb(57, 57, 177);
+  border-width: 1px;
+  cursor: pointer;
+}
+.end{
+  margin-top: 20px;
+  position: relative;
+  background: linear-gradient(to bottom, rgb(48, 110, 234), rgb(127, 138, 255),rgb(212, 111, 255));
+}
+.footer-logo{
+
+margin-left: 50px;
+margin-top: 100px;
+}
+.endp1{flex-wrap: wrap;
+  width: 190px;
+  color: white;
+  margin-left: 50px;
+}
+.endh3{
+  color: white;
+  margin-left: 50px;
+  font-size: 29px;
+  font-weight: 600;
+}
+.logo{
+  margin-top: -10px;
+margin-left: 50px;
+}
+.logoimg{
+  margin-left: 10px;
+}
+.contactus{
+  z-index: 2;
+  color: white;
+  margin-left: 1000px;
+font-size: 20px;
+}
+.footerline{
+  color: white;
+}
+.endp3{
+  color: white;
+  margin-left: 480px;
+  font-size: 20px;
+}
+.endp4{
+  color: white;
+  margin-left: 440px;
+  font-size: 20px;
+}
