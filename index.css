@@ -77,13 +77,16 @@ ul {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .Scardh22 {
   margin-left: 25px;
   padding-right: 30px;
 }
+
 .Scardh49 {
   padding-right: 60px;
 }
+
 .p1p1 {
   position: absolute;
   margin-top: 18%;
@@ -152,6 +155,7 @@ ul {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .multi-buttons {
   z-index: 1;
   position: relative;
@@ -169,6 +173,7 @@ ul {
   flex-wrap: wrap;
   margin-top: 500px;
 }
+
 .btn1 {
   margin-left: 280px;
   padding: 5px 10px 5px 10px;
@@ -180,6 +185,7 @@ ul {
   border-width: 1px;
   border-color: rgb(61, 61, 159);
 }
+
 .btn2,
 .btn3,
 .btn4,
@@ -197,6 +203,7 @@ ul {
   border-width: 1px;
   border-color: rgb(61, 61, 159);
 }
+
 .btn9 {
   cursor: pointer;
   margin-left: 360px;
@@ -208,6 +215,7 @@ ul {
   border-width: 1px;
   border-color: rgb(61, 61, 159);
 }
+
 .btn10,
 .btn11,
 .btn12,
@@ -222,12 +230,15 @@ ul {
   color: rgb(66, 66, 178);
   font-weight: 800;
 }
+
 .picture-1 {
   height: 300px;
 }
+
 .section-2 {
   background-color: white;
 }
+
 .section-2-heading {
   margin-top: 30px;
   display: flex;
@@ -235,30 +246,30 @@ ul {
   margin-left: 120px;
   font-size: 38px;
 }
+
 .card1-heading {
   color: rgb(57, 57, 177);
   margin-left: 10px;
 }
+
 .p1 {
   margin-left: 340px;
   font-size: 20px;
   font-weight: 600;
   margin-top: -7px;
 }
+
 .cardp2 {
   display: flex;
   justify-content: space-around;
 }
+
 .card1,
 .card2,
 .card3,
 .card4 {
   margin-top: 10px;
-  background: linear-gradient(
-    to bottom,
-    rgb(150, 142, 234),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to bottom, rgb(150, 142, 234), rgb(255, 255, 255));
   gap: 10px;
   padding: 40px;
   padding-right: -10px;
@@ -266,36 +277,44 @@ ul {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .card1 {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
 .card2,
 .card3,
 .card4 {
   margin-left: 10px;
   margin-bottom: 20px;
 }
+
 .card4 {
   margin-right: 10px;
 }
+
 .Scardh1,
 .Scardh3 {
   margin-left: 25px;
   font-size: 20px;
 }
+
 .Scardh4 {
   margin-left: 50px;
 }
+
 .Scardh2 {
   margin-left: 50px;
 }
+
 .Scardp1,
 .Scardp2,
 .Scardp3,
 .Scardp4 {
   font-weight: 500;
 }
+
 .cards-parent-3 {
   display: flex;
   justify-content: space-around;
@@ -304,29 +323,35 @@ ul {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .s2-content {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   font-size: 39px;
 }
+
 .S2h3-2 {
   margin-left: 20px;
   color: rgb(57, 57, 177);
 }
+
 .S2p1 {
   margin-left: 140px;
   font-size: 20px;
 }
+
 .img3 {
   margin-left: 40px;
   margin-top: 20px;
 }
+
 .cards-parent-2 {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
+
 .card5,
 .card6,
 .card7,
@@ -338,11 +363,7 @@ ul {
   width: 180px;
   height: 100px;
   margin-top: 10px;
-  background: linear-gradient(
-    to bottom,
-    rgb(150, 142, 234),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to bottom, rgb(150, 142, 234), rgb(255, 255, 255));
   gap: 10px;
   padding: 50px;
   box-shadow: 10px;
@@ -356,6 +377,7 @@ ul {
   padding: 50px;
   padding-bottom: -10px;
 }
+
 .card10 {
   padding-right: 60px;
 }
@@ -363,21 +385,25 @@ ul {
 .card12 {
   margin-right: 20px;
 }
+
 .Scardp {
   margin-left: 50px;
   font-weight: 50;
 }
+
 .card4-heading {
   color: rgb(57, 57, 177);
   margin-left: -140px;
   margin-right: 20px;
 }
+
 .section4-cards {
   height: 100px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .Ncard1,
 .Ncard2,
 .Ncard3,
@@ -394,32 +420,39 @@ ul {
   margin-top: 20px;
   cursor: pointer;
 }
+
 .section4-img {
   position: absolute;
   margin-left: 300px;
   z-index: 1;
   margin-top: -100px;
 }
+
 .Np {
   font-weight: 600;
 }
+
 .amount {
   color: rgb(57, 57, 177);
   font-weight: 600;
 }
+
 .price {
   color: rgb(57, 57, 177);
   font-weight: 600;
 }
+
 .Np2 {
   position: absolute;
   margin-top: 100px;
 }
+
 .Np3 {
   position: absolute;
   margin-left: 260px;
   margin-top: 100px;
 }
+
 .section6 {
   position: relative;
   z-index: 0;
@@ -428,20 +461,24 @@ ul {
   margin-top: 500px;
   width: 100%;
 }
+
 .Card1pic {
   margin-top: -10px;
 }
+
 .s6h3 {
   margin-left: 20px;
   font-size: 40px;
   margin-top: -10px;
 }
+
 .s6h32 {
   margin-left: 20px;
   font-size: 40px;
   margin-top: -29px;
   color: rgb(57, 57, 177);
 }
+
 .btns61 {
   margin-top: -54px;
   margin-left: 20px;
@@ -454,58 +491,64 @@ ul {
   border-width: 1px;
   cursor: pointer;
 }
+
 .end {
   margin-top: 20px;
   position: relative;
-  background: linear-gradient(
-    to bottom,
-    rgb(48, 110, 234),
-    rgb(127, 138, 255),
-    rgb(212, 111, 255)
-  );
+  background: linear-gradient(to bottom, rgb(48, 110, 234), rgb(127, 138, 255), rgb(212, 111, 255));
 }
+
 .footer-logo {
   margin-left: 50px;
   margin-top: 100px;
 }
+
 .endp1 {
   flex-wrap: wrap;
   width: 190px;
   color: white;
   margin-left: 50px;
 }
+
 .endh3 {
   color: white;
   margin-left: 50px;
   font-size: 29px;
   font-weight: 600;
 }
+
 .logo {
   margin-top: -10px;
   margin-left: 50px;
 }
+
 .logoimg {
   margin-left: 10px;
 }
+
 .contactus {
   z-index: 2;
   color: white;
   margin-left: 1000px;
   font-size: 20px;
 }
+
 .footerline {
   color: white;
 }
+
 .endp3 {
   color: white;
   margin-left: 480px;
   font-size: 20px;
 }
+
 .endp4 {
   color: white;
   margin-left: 440px;
   font-size: 20px;
 }
+
 @media (max-width: 720px) {
   .header {
     margin-left: 40px;
@@ -538,6 +581,7 @@ ul {
     position: relative;
     margin-top: 20px;
   }
+  
   .h3h2 {
     font-size: 1.5em auto;
     margin-left: 0;
@@ -549,12 +593,13 @@ ul {
   .p1p1 {
     font-size: 1em;
     margin-left: 7%;
-    margin-top: 340px;
+    margin-top: 400px;
   }
+  
   .p1p2 {
     font-size: 1em;
     margin-left: 7%;
-    margin-top: 390px;
+    margin-top: 450px;
   }
 
   .search-box {
@@ -569,171 +614,476 @@ ul {
     margin-top: 100px;
     margin-left: 150px;
   }
+  
   .h61 {
     position: absolute !important;
     z-index: auto !important;
     margin-left: 80px !important;
     margin-top: 150px;
   }
+  
   .btn {
     position: relative;
     flex-wrap: wrap;
   }
+  
   .btn1 {
     position: absolute;
     margin-top: -250px;
     margin-left: 0px;
     margin-right: 10px;
   }
+  
   .btn2 {
     position: absolute;
     margin-top: -250px;
     margin-left: 100px;
   }
+  
   .btn3 {
     position: absolute;
     margin-top: -250px;
     margin-left: 210px;
   }
+  
   .btn4 {
     position: absolute;
     margin-top: -250px;
     margin-left: 310px;
   }
+  
   .btn5 {
     position: absolute;
     margin-top: -200px;
     margin-left: 0px;
   }
+  
   .btn6 {
     position: absolute;
     margin-top: -150px;
     margin-left: 100px;
   }
+  
   .btn7 {
     position: absolute;
     margin-top: -200px;
     margin-left: 150px;
   }
+  
   .btn9 {
     position: absolute;
     margin-top: -200px;
     margin-left: 240px;
   }
+  
   .btn10 {
     position: absolute;
     margin-top: -150px;
     margin-left: 0px;
   }
+  
   .btn11 {
     position: absolute;
     margin-top: -200px;
     margin-left: 80px;
   }
+  
   .btn12 {
     position: absolute;
     margin-top: -200px;
     margin-left: 310px;
   }
+  
   .btn13 {
     position: absolute;
     margin-top: -150px;
     margin-left: 180px;
   }
+  
   .btn14 {
     position: absolute;
     margin-top: -150px;
     margin-left: 280px;
   }
+  
   .picture-1 {
     max-width: 100%;
   }
+  
   .section-2 {
     display: block;
   }
+  
   .section-2-heading {
     flex-wrap: wrap;
     font-size: 20px;
     margin-left: 10px;
   }
+  
   .card1-heading {
     margin-top: -10px;
     font-size: 20px;
     margin-left: 40px;
   }
+  
   .p1 {
     margin-left: 40px;
     font-size: 16px;
   }
+  
   .cards-parent-2 {
     flex-wrap: wrap;
     position: relative;
   }
-  .S2h3{
+  
+  .S2h3 {
     flex-wrap: wrap;
     font-size: 20px;
     margin-left: 10px;
   }
-  .S2h3-2{
+  
+  .S2h3-2 {
     font-size: 20px;
     margin-top: 20px;
   }
-  .S2p1{
+  
+  .S2p1 {
     margin-left: 10px;
   }
-  .img3{
+  
+  .img3 {
     width: 100%;
     margin-left: 0px;
-    
   }
-  .card1-heading{
+  
+  .card1-heading {
     margin-left: 15px;
   }
-  .cards-parent-3{
+  
+  .cards-parent-3 {
     flex-wrap: wrap;
     position: relative;
   }
-  .card4-heading{
+  
+  .card4-heading {
     margin-left: 10px;
   }
-  .section4-cards{
-    position:absolute
+  
+  .section4-cards {
+    position: absolute;
   }
-  .section6{
+  
+  .section6 {
     position: relative;
     flex-wrap: wrap;
   }
-  .Card1pic{
+  
+  .Card1pic {
     position: absolute;
     z-index: 0;
     margin-top: 1200px;
     width: 100%;
-
   }
-  .Card2pic{
+  
+  .Card2pic {
     position: absolute;
     z-index: 0;
     margin-left: -200px;
     margin-top: 1800px;
     width: 50%;
   }
-  .s6img2{
+  
+  .s6img2 {
     margin-left: -50px;
   }
-  .s6h3{
+  
+  .s6h3 {
     font-size: 24px;
   }
-  .end{
+  
+  .end {
     position: relative;
     z-index: 0;
     margin-top: 2400px;
   }
-  .endp3,.endp4{
+  
+  .endp3,
+  .endp4 {
     color: white;
     margin-left: 0px;
   }
-  .endp4{
+  
+  .endp4 {
     margin-bottom: 10px;
   }
+}
 
+@media (max-width: 320px) {
+  .header {
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 10px auto;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    font-size: 11px;
+    margin-right: 0px;
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+  }
+
+  .h3h1 {
+    font-size: 1em;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .h3h2 {
+    font-size: 1em;
+    margin-left: 0;
+    text-align: center;
+    position: relative;
+    margin-top: -40px;
+  }
+
+  .p1p1 {
+    font-size: 0.8em;
+    margin-left: 10%;
+    margin-top: 200px;
+  }
+  
+  .p1p2 {
+    font-size: 0.8em;
+    margin-left: 10%;
+    margin-top: 230px;
+  }
+
+  .search-box {
+    padding: 10px;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .search-button {
+    padding: 8px 15px;
+    margin-top: 60px;
+    margin-left: 110px;
+  }
+  
+  .h61 {
+    position: absolute !important;
+    z-index: auto !important;
+    margin-left: 50px !important;
+    margin-top: 80px !important;
+    font-size: 1.5em !important;
+  }
+  
+  .btn {
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .btn1 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+  
+  .btn2 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 50px;
+  }
+  
+  .btn3 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 100px;
+  }
+  
+  .btn4 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 150px;
+  }
+  
+  .btn5 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 0px;
+  }
+  
+  .btn6 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 50px;
+  }
+  
+  .btn7 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 75px;
+  }
+  
+  .btn9 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+  }
+  
+  .btn10 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 0px;
+  }
+  
+  .btn11 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 40px;
+  }
+  
+  .btn12 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 155px;
+  }
+  
+  .btn13 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 90px;
+  }
+  
+  .btn14 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 140px;
+  }
+  
+  .picture-1 {
+    max-width: 100%;
+  }
+  
+  .section-2 {
+    display: block;
+  }
+  
+  .section-2-heading {
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+  .card1-heading {
+    margin-top: -10px;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  
+  .p1 {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  
+  .cards-parent-2 {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .S2h3 {
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+  .S2h3-2 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .S2p1 {
+    margin-left: 5px;
+  }
+  
+  .img3 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  .card1-heading {
+    margin-left: 10px;
+  }
+  
+  .cards-parent-3 {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .card4-heading {
+    margin-left: 5px;
+  }
+  
+  .section4-cards {
+    position: absolute;
+  }
+  
+  .section6 {
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .Card1pic {
+    position: absolute;
+    z-index: 0;
+    margin-top: 800px;
+    width: 100%;
+  }
+  
+  .Card2pic {
+    position: absolute;
+    z-index: 0;
+    margin-left: -100px;
+    margin-top: 1200px;
+    width: 50%;
+  }
+  
+  .s6img2 {
+    margin-left: -30px;
+  }
+  
+  .s6h3 {
+    font-size: 20px;
+  }
+  
+  .end {
+    position: relative;
+    z-index: 0;
+    margin-top: 1600px;
+  }
+  
+  .endp3,
+  .endp4 {
+    color: white;
+    margin-left: 0px;
+  }
+  
+  .endp4 {
+    margin-bottom: 10px;
+  }
 }
