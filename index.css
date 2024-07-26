@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+  margin-top: 20px;
   max-width: 100%;
   max-height: 10%;
   display: flex;
@@ -15,7 +16,7 @@ body {
 li {
   display: flex;
   list-style-type: none;
-  margin-top: 1.3%;
+  margin-top: 0%;
   margin-right: 8%;
   cursor: pointer;
 }
@@ -34,7 +35,6 @@ ul {
 }
 
 .logo {
-  margin-top: 6%;
   margin-left: 14%;
   margin-right: 0%;
 }
@@ -138,66 +138,7 @@ ul {
 }
 
 /* Responsive Styles */
-@media (max-width: 720px) {
-  .header {
-    justify-content: center;
-  }
 
-  .logo {
-    margin: 10px auto;
-  }
-
-  ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  li {
-    margin-right: -160px;
-    margin-left: -30px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-  }
-
-  .h3h1 {
-    font-size: 1.5em auto;
-    margin-left: 0;
-    text-align: center;
-    position: relative;
-    margin-top: 20px;
-  }
-  .h3h2 {
-    font-size: 1.5em auto;
-    margin-left: 0;
-    text-align: center;
-    position: relative;
-    margin-top: -60px;
-  }
-
-  .p1p1 {
-    font-size: 1em;
-    margin-left: 10%;
-    margin-top: 300px;
-  }
-  .p1p2 {
-    font-size: 1em;
-    margin-left: 10%;
-    margin-top: 350px;
-  }
-
-  .search-box {
-    padding: 10px;
-    margin-left: 5%;
-    width: 90%;
-    margin-top: 50px;
-  }
-
-  .search-button {
-    padding: 10px 20px;
-    margin-top: 100px;
-    margin-left: 150px;
-  }
-}
 .h61 {
   position: absolute;
   z-index: 1;
@@ -431,127 +372,368 @@ ul {
   margin-left: -140px;
   margin-right: 20px;
 }
-.section4-cards{
+.section4-cards {
   height: 100px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.Ncard1,.Ncard2,.Ncard3,.Ncard4,.Ncard5,.Ncard6{
+.Ncard1,
+.Ncard2,
+.Ncard3,
+.Ncard4,
+.Ncard5,
+.Ncard6 {
   margin-left: 10px;
   position: relative;
- width: 350px;
- height: 250px;
+  width: 350px;
+  height: 250px;
   box-shadow: 10px;
   border-radius: 10px;
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
   cursor: pointer;
 }
-.section4-img{
-  position:absolute;
+.section4-img {
+  position: absolute;
   margin-left: 300px;
   z-index: 1;
   margin-top: -100px;
 }
-.Np{
+.Np {
   font-weight: 600;
 }
-.amount{
-  color:rgb(57, 57, 177);
+.amount {
+  color: rgb(57, 57, 177);
   font-weight: 600;
 }
-.price{
-  color:rgb(57, 57, 177);
-  font-weight: 600; 
+.price {
+  color: rgb(57, 57, 177);
+  font-weight: 600;
 }
-.Np2{
+.Np2 {
   position: absolute;
-  margin-top:100px ;
+  margin-top: 100px;
 }
-.Np3{
+.Np3 {
   position: absolute;
   margin-left: 260px;
   margin-top: 100px;
 }
-.section6{
+.section6 {
   position: relative;
   z-index: 0;
   display: flex;
   justify-content: space-around;
-  margin-top:500px ;
+  margin-top: 500px;
   width: 100%;
 }
-.Card1pic{
+.Card1pic {
   margin-top: -10px;
 }
-.s6h3{
+.s6h3 {
   margin-left: 20px;
   font-size: 40px;
   margin-top: -10px;
 }
-.s6h32{
+.s6h32 {
   margin-left: 20px;
   font-size: 40px;
   margin-top: -29px;
-  color:rgb(57, 57, 177);
+  color: rgb(57, 57, 177);
 }
-.btns61{
+.btns61 {
   margin-top: -54px;
   margin-left: 20px;
   padding: 10px 20px;
   font-weight: 600;
   border-radius: 20px;
   font-size: large;
-  color:rgb(57, 57, 177);
+  color: rgb(57, 57, 177);
   border-color: rgb(57, 57, 177);
   border-width: 1px;
   cursor: pointer;
 }
-.end{
+.end {
   margin-top: 20px;
   position: relative;
-  background: linear-gradient(to bottom, rgb(48, 110, 234), rgb(127, 138, 255),rgb(212, 111, 255));
+  background: linear-gradient(
+    to bottom,
+    rgb(48, 110, 234),
+    rgb(127, 138, 255),
+    rgb(212, 111, 255)
+  );
 }
-.footer-logo{
-
-margin-left: 50px;
-margin-top: 100px;
+.footer-logo {
+  margin-left: 50px;
+  margin-top: 100px;
 }
-.endp1{flex-wrap: wrap;
+.endp1 {
+  flex-wrap: wrap;
   width: 190px;
   color: white;
   margin-left: 50px;
 }
-.endh3{
+.endh3 {
   color: white;
   margin-left: 50px;
   font-size: 29px;
   font-weight: 600;
 }
-.logo{
+.logo {
   margin-top: -10px;
-margin-left: 50px;
+  margin-left: 50px;
 }
-.logoimg{
+.logoimg {
   margin-left: 10px;
 }
-.contactus{
+.contactus {
   z-index: 2;
   color: white;
   margin-left: 1000px;
-font-size: 20px;
+  font-size: 20px;
 }
-.footerline{
+.footerline {
   color: white;
 }
-.endp3{
+.endp3 {
   color: white;
   margin-left: 480px;
   font-size: 20px;
 }
-.endp4{
+.endp4 {
   color: white;
   margin-left: 440px;
   font-size: 20px;
+}
+@media (max-width: 720px) {
+  .header {
+    margin-left: 40px;
+    margin-right: 90px;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 10px auto;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    font-size: 13px;
+    margin-right: 0px;
+    margin-left: -60px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+  }
+
+  .h3h1 {
+    font-size: 1.5em auto;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  .h3h2 {
+    font-size: 1.5em auto;
+    margin-left: 0;
+    text-align: center;
+    position: relative;
+    margin-top: -60px;
+  }
+
+  .p1p1 {
+    font-size: 1em;
+    margin-left: 7%;
+    margin-top: 340px;
+  }
+  .p1p2 {
+    font-size: 1em;
+    margin-left: 7%;
+    margin-top: 390px;
+  }
+
+  .search-box {
+    padding: 10px;
+    margin-left: 7%;
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  .h61 {
+    position: absolute !important;
+    z-index: auto !important;
+    margin-left: 80px !important;
+    margin-top: 150px;
+  }
+  .btn {
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .btn1 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .btn2 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  .btn3 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 210px;
+  }
+  .btn4 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 310px;
+  }
+  .btn5 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 0px;
+  }
+  .btn6 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 100px;
+  }
+  .btn7 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 150px;
+  }
+  .btn9 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 240px;
+  }
+  .btn10 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 0px;
+  }
+  .btn11 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 80px;
+  }
+  .btn12 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 310px;
+  }
+  .btn13 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 180px;
+  }
+  .btn14 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 280px;
+  }
+  .picture-1 {
+    max-width: 100%;
+  }
+  .section-2 {
+    display: block;
+  }
+  .section-2-heading {
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .card1-heading {
+    margin-top: -10px;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .p1 {
+    margin-left: 40px;
+    font-size: 16px;
+  }
+  .cards-parent-2 {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .S2h3{
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .S2h3-2{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .S2p1{
+    margin-left: 10px;
+  }
+  .img3{
+    width: 100%;
+    margin-left: 0px;
+    
+  }
+  .card1-heading{
+    margin-left: 15px;
+  }
+  .cards-parent-3{
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .card4-heading{
+    margin-left: 10px;
+  }
+  .section4-cards{
+    position:absolute
+  }
+  .section6{
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .Card1pic{
+    position: absolute;
+    z-index: 0;
+    margin-top: 1200px;
+    width: 100%;
+
+  }
+  .Card2pic{
+    position: absolute;
+    z-index: 0;
+    margin-left: -200px;
+    margin-top: 1800px;
+    width: 50%;
+  }
+  .s6img2{
+    margin-left: -50px;
+  }
+  .s6h3{
+    font-size: 24px;
+  }
+  .end{
+    position: relative;
+    z-index: 0;
+    margin-top: 2400px;
+  }
+  .endp3,.endp4{
+    color: white;
+    margin-left: 0px;
+  }
+  .endp4{
+    margin-bottom: 10px;
+  }
+
 }
